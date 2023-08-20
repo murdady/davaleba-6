@@ -5,6 +5,7 @@
     width: 100%;
     display: flex;
     margin: auto;
+    flex-direction: column;
 }
 
 header {
@@ -56,4 +57,49 @@ nav {
     align-items: center;
     font-size: 35px;
     color: #758BFD;
+}
+
+/* SECTION */
+
+.mainsection {
+    padding: 115px 98px;
+    background-color: #DDEAF8;
+    
+
+}
+
+h1 {
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 68px;
+    
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+figure { 
+    display: flex;
+    width: 400px;
+    padding: 33px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 33px;
+    background-color: white;
+    color: #133B3A;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
 }
