@@ -1,5 +1,4 @@
 /* HEADER */
-
 .container {
     max-width: 1440px;
     width: 100%;
@@ -60,12 +59,9 @@ nav {
 }
 
 /* SECTION */
-
 .mainsection {
     padding: 115px 98px;
     background-color: #DDEAF8;
-    
-
 }
 
 h1 {
@@ -76,7 +72,6 @@ h1 {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 68px;
-    
 }
 
 .cards {
@@ -86,7 +81,7 @@ h1 {
     gap: 20px;
 }
 
-figure { 
+figure {
     display: flex;
     width: 400px;
     padding: 33px 30px;
@@ -102,4 +97,56 @@ figure {
     font-weight: 400;
     line-height: normal;
     border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    padding: 75px 98px;
+    background-color: #758BFD;
+}
+
+
+
+h2 {
+    color: #00CAD7;
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+
+p {
+    color: #FFF;
+    font-family: Century Gothic;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.icons {
+    color: white;
+    font-size: 22px;
+    margin-right: 24px;
+}
+
+.paymentlogo {
+    margin-left: 612px;
+}
+
+.paymentvisa {
+    padding: 14px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.payment {
+    background-color: white;
+    width: 97px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.mailto {
+    color: white;
 }
